@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: mawazo#hoidla_2.10;1.0 :: 1.0 :: release :: Fri Nov 02 15:28:54 IST 2018[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=release pubdate=Fri Nov 02 15:28:54 IST 2018 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/ivy-1.0.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (24ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published hoidla_2.10 to /home/centeritylatest/.ivy2/local/mawazo/hoidla_2.10/1.0/poms/hoidla_2.10.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published hoidla_2.10 to /home/centeritylatest/.ivy2/local/mawazo/hoidla_2.10/1.0/jars/hoidla_2.10.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published hoidla_2.10 to /home/centeritylatest/.ivy2/local/mawazo/hoidla_2.10/1.0/srcs/hoidla_2.10-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published hoidla_2.10 to /home/centeritylatest/.ivy2/local/mawazo/hoidla_2.10/1.0/docs/hoidla_2.10-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /home/centeritylatest/.ivy2/local/mawazo/hoidla_2.10/1.0/ivys/ivy.xml[0m

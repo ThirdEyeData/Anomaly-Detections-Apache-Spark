@@ -1,0 +1,22 @@
+Build all necessary jars
+========================
+in chombo
+mvn clean install
+sbt publishLocal
+
+in chombo/spark
+sbt clean package
+sbt publishLocal
+
+in avenir
+mvn clean install
+sbt publishLocal
+
+in avenir/spark
+sbt clean package
+
+Build uber jar
+==============
+ant -f avenir_spark.xml
+
+uber jar file name is uber-avenir-spark-1.0.jar

@@ -1,0 +1,115 @@
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/HyperLogLog.java:23:1:  error: package org.slf4j does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.slf4j.Logger;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/HyperLogLog.java:38:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m	private static final Logger LOG = LoggerFactory.getLogger(HyperLogLog.class);[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^  symbol:   class Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class HyperLogLog[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/CountMinSketch.java:20:1:  error: package org.slf4j does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.slf4j.Logger;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/BaseCountSketch.java:20:1:  error: package org.slf4j does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.slf4j.Logger;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/CountMinSketch.java:39:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m	private static final Logger LOG = LoggerFactory.getLogger(CountMinSketch.class);[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^  symbol:   class Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class CountMinSketch[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/BaseCountSketch.java:47:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m	private static final Logger LOG = LoggerFactory.getLogger(BaseCountSketch.class);[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^  symbol:   class Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class BaseCountSketch[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/BoundedSortedObjects.java:24:1:  error: package org.apache.commons.lang3.tuple does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.lang3.tuple.ImmutablePair;[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/BoundedSortedObjects.java:40:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m		private ImmutablePair<Integer, Object> pair;[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^  symbol:   class ImmutablePair[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class SortableObject[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/MankuMotwaniLossyCounting.java:24:1:  error: package org.apache.commons.lang3.tuple does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.lang3.tuple.ImmutablePair;[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/MankuMotwaniLossyCounting.java:38:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m	private Map<Object, ImmutablePair<ObjectCounter, Long>> buckets = [0m
+[0m[[0m[31merror[0m] [0m[0m	                    ^  symbol:   class ImmutablePair[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class MankuMotwaniLossyCounting[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/CountMinSketchesFrequent.java:24:1:  error: package org.slf4j does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.slf4j.Logger;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/CountMinSketchesFrequent.java:51:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m	private static final Logger LOG = LoggerFactory.getLogger(CountMinSketchesFrequent.class);[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^  symbol:   class Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class CountMinSketchesFrequent[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/WindowUtils.java:23:1:  error: package org.apache.commons.math3.stat does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.math3.stat.Frequency;[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/WindowUtils.java:25:1:  error: package org.apache.commons.math3.stat.descriptive does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.math3.stat.descriptive.SummaryStatistics;[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/LikelihoodRatioLevelShift.java:20:1:  error: package org.apache.commons.math3.stat does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.math3.stat.StatUtils;[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/SimpleObjectCounter.java:20:1:  error: package org.slf4j does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.slf4j.Logger;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/SimpleObjectCounter.java:29:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m	private static final Logger LOG = LoggerFactory.getLogger(SimpleObjectCounter.class);[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^  symbol:   class Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class SimpleObjectCounter[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/DataWindow.java:52:1:  no description for @param[0m
+[0m[[0m[33mwarn[0m] [0m[0m	 * @param addFirst[0m
+[0m[[0m[33mwarn[0m] [0m[0m	   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/BiasedReservoirWindow.java:23:1:  no description for @param[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @param <T>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/BiasedReservoirWindow.java:29:1:  no description for @param[0m
+[0m[[0m[33mwarn[0m] [0m[0m	 * @param maxSize[0m
+[0m[[0m[33mwarn[0m] [0m[0m	   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/DataWindow.java:30:1:  no description for @param[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @param <T>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/EventLocality.java:38:1:  no description for @param[0m
+[0m[[0m[33mwarn[0m] [0m[0m	 * @param eventWindowPositions[0m
+[0m[[0m[33mwarn[0m] [0m[0m	   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/EventLocality.java:46:1:  no @param for findClusterWithin[0m
+[0m[[0m[33mwarn[0m] [0m[0m	public static double getPositionalEventSingleScore(List<Long> eventWindowPositions, int minOccurence, [0m
+[0m[[0m[33mwarn[0m] [0m[0m	                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/EventLocality.java:484:1:  no description for @param[0m
+[0m[[0m[33mwarn[0m] [0m[0m		 * @param strategyList[0m
+[0m[[0m[33mwarn[0m] [0m[0m		   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/EventLocality.java:428:1:  no @param for findClusterWithin[0m
+[0m[[0m[33mwarn[0m] [0m[0m		public Context(int minOccurence, long maxIntervalAverage, boolean findClusterWithin, long minClusterSize, [0m
+[0m[[0m[33mwarn[0m] [0m[0m		       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/EventLocality.java:462:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m		 * @param singleStatregies[0m
+[0m[[0m[31merror[0m] [0m[0m		          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/TimeBoundEventLocalityAnalyzer.java:45:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param minOccurence[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/window/WindowUtils.java:184:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param window[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/ObjectCounter.java:35:1:  error: invalid use of @return[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @return[0m
+[0m[[0m[31merror[0m] [0m[0m	   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/ObjectCounter.java:41:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param count[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/Expirer.java:82:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param maxEpochs[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/ImplicitlyTimetStampedValue.java:31:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param timeStamp[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/util/TemporalClusterFinder.java:64:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param timeHorizonStart[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/FrequentItems.java:50:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param strategy[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/FrequentItems.java:80:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m	 * @param <T>[0m
+[0m[[0m[31merror[0m] [0m[0m	           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/centeritylatest/Documents/CenterityLatest/hoidla/src/main/java/org/hoidla/stream/MisraGriesFrequent.java:34:1:  error: @param name not found[0m
+[0m[[0m[31merror[0m] [0m[0m * @param <T>[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m

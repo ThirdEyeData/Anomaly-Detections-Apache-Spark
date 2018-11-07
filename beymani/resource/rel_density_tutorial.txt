@@ -1,0 +1,110 @@
+Configuration
+=============
+Here are the global config properties to set in the properties file. Please make changes as necessary
+
+debug.on=true
+field.delim=,
+field.delim.regex=,
+num.reducer=1
+
+Configuration settings for individual map reduce jobs are described below
+
+Map Reduce Jobs
+===============
+
+1. Similarity calculation
+-------------------------
+run SameTypeSimilarity
+
+Make sure properties are set as below in the configuration properties file
+
+sts.same.schema.file.path=/user/pranab/cct/meta/cct.json
+sts.bucket.count=10
+sts.distance.scale=1000
+
+2. Density calculation. 
+----------------------
+Here is a sample script. It uses the output of SameTypeSmilarity MR as input
+
+JAR_NAME=/home/pranab/Projects/beymani/target/beymani-1.0.jar
+CLASS_NAME=org.beymani.proximity.AverageDistance
+
+echo "running mr"
+IN_PATH=/user/pranab/cct/simi
+OUT_PATH=/user/pranab/cct/avdi
+echo "input $IN_PATH output $OUT_PATH"
+hadoop fs -rmr $OUT_PATH
+echo "removed output dir"
+
+hadoop jar $JAR_NAME  $CLASS_NAME -Dconf.path=/home/pranab/Projects/bin/fraud/cct.properties  $IN_PATH  $OUT_PATH
+
+Make sure properties are set as below, so that density is output
+
+avd.top.match.average=false
+avd.top.match.density=true
+avd.top.match.grouping=false
+
+3. Calculate neighborhood groups
+--------------------------------
+Use the same MR as before. Watch the configurations params at the end of this section
+
+JAR_NAME=/home/pranab/Projects/beymani/target/beymani-1.0.jar
+CLASS_NAME=org.beymani.proximity.AverageDistance
+
+echo "running mr"
+IN_PATH=/user/pranab/cct/simi
+OUT_PATH=/user/pranab/cct/negrp
+echo "input $IN_PATH output $OUT_PATH"
+hadoop fs -rmr $OUT_PATH
+echo "removed output dir"
+
+hadoop jar $JAR_NAME  $CLASS_NAME -Dconf.path=/home/pranab/Projects/bin/fraud/cct.properties  $IN_PATH  $OUT_PATH
+
+Make sure properties are set as below, so that neighborhood group is output
+
+avd.top.match.average=false
+avd.top.match.density=flase
+avd.top.match.grouping=true
+
+4. Find Neighborhood and Density. 
+--------------------------------
+Here is a sample  script. Before running make sure out of step 2 and 3  is copied
+or moved to the input dir for thios MR. Change the prefix of the output of step 2 
+to what is defined in the config param density.file.prefix
+
+JAR_NAME=/home/pranab/Projects/beymani/target/beymani-1.0.jar
+CLASS_NAME=org.beymani.proximity.NeighborDensity
+
+echo "running mr"
+IN_PATH=/user/pranab/cct/input/nede
+OUT_PATH=/user/pranab/cct/nede
+echo "input $IN_PATH output $OUT_PATH"
+hadoop fs -rmr $OUT_PATH
+echo "removed output dir"
+
+hadoop jar $JAR_NAME  $CLASS_NAME -Dconf.path=/home/pranab/Projects/bin/fraud/cct.properties  $IN_PATH  $OUT_PATH
+
+Make sure properties are set as below
+
+ned.density.file.prefix=den
+
+5. Relative density calculation
+-------------------------------
+It uses the input of step 4 as input. Here is the sample script
+
+JAR_NAME=/home/pranab/Projects/beymani/target/beymani-1.0.jar
+CLASS_NAME=org.beymani.proximity.RelativeDensity
+
+echo "running mr"
+IN_PATH=/user/pranab/cct/nede
+OUT_PATH=/user/pranab/cct/rede
+echo "input $IN_PATH output $OUT_PATH"
+hadoop fs -rmr $OUT_PATH
+echo "removed output dir"
+
+hadoop jar $JAR_NAME  $CLASS_NAME -Dconf.path=/home/pranab/Projects/bin/fraud/cct.properties  $IN_PATH  $OUT_PATH
+
+
+
+
+

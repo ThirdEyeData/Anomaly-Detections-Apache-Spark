@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging /home/centeritylatest/Documents/CenterityLatest/beymani/spark/target/scala-2.10/beymani-spark_2.10-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/beymani/spark/common/OutlierUtility.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/spark/common/OutlierUtility.scala[0m
+[0m[[0mdebug[0m] [0m	org/beymani/spark/common/ThresholdLearner.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/spark/common/ThresholdLearner.scala[0m
+[0m[[0mdebug[0m] [0m	org/beymani/sanity/WordCount.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/sanity/WordCount.scala[0m
+[0m[[0mdebug[0m] [0m	org/beymani/spark/seq/OneStepAheadPredictor.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/spark/seq/OneStepAheadPredictor.scala[0m
+[0m[[0mdebug[0m] [0m	org/beymani/spark/dist/StatsBasedOutlierPredictor.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/spark/dist/StatsBasedOutlierPredictor.scala[0m
+[0m[[0mdebug[0m] [0m	org/beymani/spark/dist/MultiVariateDistribution.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/spark/dist/MultiVariateDistribution.scala[0m
+[0m[[0mdebug[0m] [0m	org/beymani/spark/level/OutlierLevelShift.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/centeritylatest/Documents/CenterityLatest/beymani/spark/src/main/scala/org/beymani/spark/level/OutlierLevelShift.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

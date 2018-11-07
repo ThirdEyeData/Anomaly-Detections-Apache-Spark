@@ -1,0 +1,363 @@
+[0m[[0m[0minfo[0m] [0m[0mUpdating ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: mawazo#hoidla_2.10;1.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/scala-library/2.10.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-library;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-library;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom (2.10.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.pom(pom.original) (1158ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/scala-library/2.10.4/jars/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.10.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for mawazo#hoidla_2.10;1.0 [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/scala-compiler/2.10.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-compiler;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-compiler;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom (2.10.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.4!scala-compiler.pom(pom.original) (1151ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/scala-compiler/2.10.4/jars/scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.10.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/scala-reflect/2.10.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom (2.10.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.4!scala-reflect.pom(pom.original) (1144ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/scala-reflect/2.10.4/jars/scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.10.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/jline/2.10.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#jline;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#jline;2.10.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom (2.10.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.4!jline.pom(pom.original) (1139ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.scala-lang/jline/2.10.4/jars/jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#jline;2.10.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.fusesource.jansi/jansi/1.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.fusesource.jansi#jansi;1.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.fusesource.jansi#jansi;1.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom (1.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.pom(pom.original) (1148ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/centeritylatest/.ivy2/local/org.fusesource.jansi/jansi/1.4/jars/jansi.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.fusesource.jansi#jansi;1.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies mawazo#hoidla_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar (2875ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.4!jline.jar (2981ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar (6116ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.jar (16536ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar (27548ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 8689ms :: artifacts dl 27551ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 compile produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 runtime produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 test produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 provided produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 optional produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 compile-internal produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 runtime-internal produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 test-internal produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 plugin produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 pom produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for mawazo#hoidla_2.10;1.0 scala-tool produced in /home/centeritylatest/Documents/CenterityLatest/hoidla/target/scala-2.10/resolution-cache/reports/mawazo-hoidla_2.10-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (8689ms resolve - 27551ms download)[0m
+[0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

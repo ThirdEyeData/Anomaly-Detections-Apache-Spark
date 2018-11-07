@@ -1,0 +1,13 @@
+<project name="beymani_for_state_trans_rate" default="uber-jar" basedir=".">
+<target name="uber-jar">
+    <echo>Packaging into a single uber JAR</echo>
+	<jar destfile="uber-beymani-spark-1.0.jar">
+		<zipgroupfileset dir="../spark/target/scala-2.10" includes="beymani-spark_2.10-1.0.jar" /> 
+		<zipgroupfileset dir="../../chombo/spark/target/scala-2.10" includes="chombo-spark_2.10-1.0.jar" /> 
+		<zipgroupfileset dir="../../chombo/target" includes="chombo-1.0.jar" />
+		<zipgroupfileset dir="../../hoidla/target" includes="hoidla-1.0.jar" /> 
+		<zipgroupfileset dir="../target" includes="beymani-1.0.jar" />    
+		<zipgroupfileset dir="../target" includes="config-0.4.0.jar" />     
+	</jar>
+</target>
+</project>

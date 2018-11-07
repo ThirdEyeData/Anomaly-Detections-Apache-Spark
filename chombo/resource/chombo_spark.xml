@@ -1,0 +1,11 @@
+<project name="uber chombo" default="uber-jar" basedir=".">
+<target name="uber-jar">
+    <echo>Packaging into a single uber JAR</echo>
+	<jar destfile="uber-chombo-spark-1.0.jar">
+		<zipgroupfileset dir="../spark/target/scala-2.10" includes="chombo-spark_2.10-1.0.jar" /> 
+		<zipgroupfileset dir="../target" includes="chombo-1.0.jar" />
+		<zipgroupfileset dir="../jars" includes="config-0.4.0.jar"/>       
+	</jar>
+</target>
+</project>
+

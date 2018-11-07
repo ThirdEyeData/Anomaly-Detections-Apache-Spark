@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>common - org.chombo.spark.common</title>
+          <meta name="description" content="common - org.chombo.spark.common" />
+          <meta name="keywords" content="common org.chombo.spark.common" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'org.chombo.spark.common.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="org">org</a>.<a href="../../package.html" class="extype" name="org.chombo">chombo</a>.<a href="../package.html" class="extype" name="org.chombo.spark">spark</a></p>
+        <h1>common</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">common</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.chombo.spark.common.JobConfiguration" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="JobConfigurationextendsAnyRef"></a>
+      <a id="JobConfiguration:JobConfiguration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="JobConfiguration.html"><span class="name">JobConfiguration</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Various configuration helper methods for spark jobs</p>
+    </li><li name="org.chombo.spark.common.Record" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RecordextendsSerializablewithOrdered[org.chombo.spark.common.Record]"></a>
+      <a id="Record:Record"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Record.html"><span class="name">Record</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span> with <span class="extype" name="scala.Ordered">Ordered</span>[<a href="Record.html" class="extype" name="org.chombo.spark.common.Record">Record</a>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="org.chombo.spark.common.RecordBasePartitioner" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RecordBasePartitionerextendsPartitioner"></a>
+      <a id="RecordBasePartitioner:RecordBasePartitioner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RecordBasePartitioner.html"><span class="name">RecordBasePartitioner</span></a><span class="result"> extends <span class="extype" name="org.apache.spark.Partitioner">Partitioner</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Partitioning using base part of key for secondary sorting</p>
+    </li><li name="org.chombo.spark.common.RecordPartitioner" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RecordPartitionerextendsPartitioner"></a>
+      <a id="RecordPartitioner:RecordPartitioner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RecordPartitioner.html"><span class="name">RecordPartitioner</span></a><span class="result"> extends <span class="extype" name="org.apache.spark.Partitioner">Partitioner</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Partitioner for secondary sorting.</p>
+    </li><li name="org.chombo.spark.common.SeasonalUtility" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="SeasonalUtilityextendsAnyRef"></a>
+      <a id="SeasonalUtility:SeasonalUtility"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="SeasonalUtility.html"><span class="name">SeasonalUtility</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Utility methods for seasonality</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.chombo.spark.common.CommonUtil" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CommonUtil"></a>
+      <a id="CommonUtil:CommonUtil"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CommonUtil$.html"><span class="name">CommonUtil</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="org.chombo.spark.common.Record" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Record"></a>
+      <a id="Record:Record"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Record$.html"><span class="name">Record</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.chombo.spark.common.StreamUtil" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StreamUtil"></a>
+      <a id="StreamUtil:StreamUtil"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StreamUtil$.html"><span class="name">StreamUtil</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../lib/template.js"></script>
+    </body>
+      </html>

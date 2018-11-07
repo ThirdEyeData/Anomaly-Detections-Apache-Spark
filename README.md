@@ -126,7 +126,7 @@ with_outlier_data_file = data file with outliers (cusage.txt)
 
 -copy
 
- ./and_spark.sh cpTestData <with_outlier_data_file> 
+./and_spark.sh cpTestData <with_outlier_data_file> 
 
 where
 with_outlier_data_file = data file with outliers (cusage.txt)

@@ -1,4 +1,4 @@
-# Outlier-Detections-Apache-Spark
+# Anomaly Detections using Apache Spark
 
 Assumptions
 
